@@ -7,7 +7,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_storage_account" "TfStorageAccount" {
-  name                     = "teststoragenewaccount"
+  name                     = "jenkinsstoragenewaccount"
   resource_group_name      = "NewRG"
   location                 = "eastus"
   account_tier             = "Standard"
