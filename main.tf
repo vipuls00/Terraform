@@ -8,7 +8,7 @@ provider "azurerm" {
 
 resource "azurerm_storage_account" "TfStorageAccount" {
   name                     = "teststoragenewaccount"
-  resource_group_name      = "TestGroup"
+  resource_group_name      = "NewRG"
   location                 = "eastus"
   account_tier             = "Standard"
   account_replication_type = "RAGZRS"
